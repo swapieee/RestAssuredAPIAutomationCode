@@ -30,7 +30,7 @@ public class UserTest {
 		userPayload.setPassword(faker.internet().password(5, 10));
 		userPayload.setPhone(faker.phoneNumber().cellPhone());	
 		
-		logger = LogManager.getLogger("RestAssuredFramework");
+		logger = LogManager.getLogger("RestAssuredFramework -----");
 	}
 	
 	
